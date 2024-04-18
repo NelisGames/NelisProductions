@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ea; /* Mint green background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark gray text */
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') center center/cover no-repeat; /* Add your hero image */
+    color: #fff; /* White text */
+    text-align: center;
+    top: 10px;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00b894; /* Mint green button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #00a884; /* Darker mint green on hover */
+}
+
+.about {
+    background: #fff; /* White background */
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+footer {
+    background: #333; /* Dark gray background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+pagetitle {
+    position: relative;
+    top: 1px;
+    text-align: center;
+
+}
