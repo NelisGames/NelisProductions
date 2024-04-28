@@ -113,6 +113,12 @@ pagetitle {
     text-align: center; /* Align the text within each news update to the left */
 }
 
+.news-update-old {
+    margin-bottom: 20px; /* Add some spacing between each news update */
+    text-align: center; /* Align the text within each news update to the left */
+    color: darkgrey;
+}
+
 .index {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
