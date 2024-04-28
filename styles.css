@@ -10,6 +10,11 @@
     overflow: hidden;
 }
 
+.container img {
+    width: 50%; /* Make it 50% of its original size */
+    height: 50%; /* Make it 50% of its original size */
+}
+
 header {
     background: #fff; /* White background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
