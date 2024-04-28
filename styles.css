@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f8ea; /* Mint green background */
@@ -87,4 +87,47 @@ pagetitle {
     top: 1px;
     text-align: center;
 
+}
+
+#logo {
+    height: 70px; /* Adjust the height to your desired size */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 10px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+    z-index: 1; /* Ensure the logo stays above other content */
+}
+
+.news-container {
+    text-align: center; /* Center-align the content inside the container */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.news-update {
+    margin-bottom: 20px; /* Add some spacing between each news update */
+    text-align: center; /* Align the text within each news update to the left */
+}
+
+.index {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+    font-size: large;
+}
+
+.herosota {
+    background: url('SotAHero.jpg') center center/cover no-repeat; /* Add your hero image */
+    color: #fff; /* White text */
+    text-align: center;
+    margin-bottom: 30px;
+    top: 10px;
+    padding: 120px 0;
+    image
+}
+
+.herosota img {
+    width: 50%; /* Make it 50% of its original size */
+    height: 50%; /* Make it 50% of its original size */
 }
